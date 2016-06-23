@@ -5,8 +5,9 @@ var resources = function(payload,callback){
   } else {
     return callback(null, 'No resources for this channel.')
   }
+}
 
 
+// REGISTER COMMAND
 resources.command = 'resources'
-
 module.exports = resources

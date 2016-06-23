@@ -6,7 +6,7 @@ slashbot({
   name : 'slashbot',
   responders : [
     './responders/shout',
-    './responders/resources',
+    './responders/resources'
   ]
 },function(err){
   if(err) throw err
